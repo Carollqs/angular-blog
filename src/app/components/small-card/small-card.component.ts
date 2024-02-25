@@ -9,7 +9,9 @@ export class SmallCardComponent implements OnInit {
   @Input()
   pictureCover:string =""
  @Input()
-  cardTitle:string =" Uma boa ideia de tattoo"
+  cardTitle:string =" "
+  @Input()
+  Id:string ="0"
   constructor() { }
 
   ngOnInit(): void {
